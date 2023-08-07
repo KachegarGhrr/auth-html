@@ -1,0 +1,76 @@
+body {
+    background-image: linear-gradient( #5e68f0, #e2918d, #5e68f0);
+}
+
+.containers {
+    display: flex;
+    padding: 10px;
+}
+
+.container_1 {
+    justify-content: space-between;
+}
+
+.container_2 {
+    flex-direction: column;
+}
+
+.container_3 {
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.container_4 {
+    align-items: self-end;
+    justify-content: space-between;
+    flex-grow: 0;
+
+}
+
+.items {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.item_1 {
+    background-color: aliceblue;
+}
+
+.block_1 {
+
+}
+
+.item_2 {
+    background-color: aqua; 
+    
+}
+
+.block_2 {
+    flex-grow: 4;
+}
+
+.item_3 {
+    background-color: red;
+    
+}
+
+.block_3 {
+    flex-grow: 4;
+}
+
+.item_4 {
+    background-color: green;
+}
+
+.block_4 {
+    
+}
+
+.item_5 {
+    background-color: yellow;
+}
+
+.block_5 {
+    
+}

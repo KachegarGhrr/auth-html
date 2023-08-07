@@ -17,15 +17,20 @@ body {
     display: flex;
     flex-direction: row;
     width: 300px;
+    align-items: center;
 }
 
 button {
     
     color: rgb(0, 0, 0);
-    font-size: 16px;
+    font-size: 70%;
     font-weight: bold;
     padding: 10px;
     flex-basis: 50%;
+}
+
+button:active {
+    padding: 8px 0px;
 }
 
 
@@ -35,4 +40,8 @@ input {
     width: 300px;
     padding: 8px 4px 8px 10px;
     margin-bottom: 15px;
+}
+
+input:focus {
+    background: rgb(247, 247, 217);    
 }

@@ -16,9 +16,21 @@ header ul {
 }
 
 header a {
-    padding: 1em;
+    padding: 1.2em;
     background: rgba(245, 155, 130, 0.3);
     color: #ffffff;
     text-decoration: none;
 }
-  
+
+a:hover {
+    background-color: rgb(241, 177, 177);
+    color: #000;
+}
+
+a:active {
+    background-color: rgb(231, 84, 84);
+  }
+
+  input[type="text"]:focus {
+    background-color: #ffe082;
+  }

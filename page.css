@@ -22,7 +22,7 @@ body {
 .butt {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: calc(100 * 3);
     align-items: stretch;
     padding: 10px;
 }

@@ -25,10 +25,13 @@ header a {
 a:hover {
     background-color: rgb(241, 177, 177);
     color: #000;
+    transition-duration: 0.8s;
 }
 
 a:active {
     background-color: rgb(231, 84, 84);
+    transform: scale(1.2);
+    transition-duration: 0.3s;
   }
 
   input[type="text"]:focus {

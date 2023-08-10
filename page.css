@@ -37,8 +37,14 @@ button {
     flex-basis: 50%;
 }
 
-button:active {
-    padding: 8px 0px;
+.butt1:active {
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+}
+
+.butt2:active {
+    transform: scale(0.9);
+    transition-duration: 0.5s;
 }
 
 
@@ -51,6 +57,7 @@ input {
 }
 
 input:focus {
-    background: var(--color2);    
+    background: var(--color2);
+    transition-duration: 0.5s;    
 }
 
